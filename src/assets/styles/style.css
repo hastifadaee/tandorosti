@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'tandorosti';
+    src: url('../fonts/font/IRANSans.eot');
+    src: url('../fonts/font/IRANSans.woff2') format('woff2'),
+    url('../fonts/font/IRANSans.woff') format('woff');
+}
+*{
+    margin : 0 ;
+    padding : 0;
+    box-sizing: border-box;
+}
+html , body , #root{
+    font-family: tandorosti , serif;
+    background-color: #eee;
+    height: 100%;
+}
+.otp-input-root{
+    justify-content: space-between;
+    width: 100%;
+    direction: ltr;
+}
+.otp-input{
+    background-color: #eeeeee;
+    border-radius: 4px ;
+    padding : 0;
+    border: none;
+    width: 15%  !important;
+    height: auto !important;
+    aspect-ratio: 1/1 !important;
+    margin : 0 !important;
+}
